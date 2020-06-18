@@ -4,6 +4,7 @@ import { AlertButton } from "./components/alertButton";
 import { CounterButton } from "./components/counterButton";
 import { UpdateOnlyButton } from "./components/updateOnlyButton";
 import { counterState } from "./components/atoms";
+import { TextInput } from "./components/textInput";
 import "./styles.css";
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
       <CounterButton />
       <UpdateOnlyButton />
       <AlertButton />
+      <TextInput />
     </div>
   );
 }
